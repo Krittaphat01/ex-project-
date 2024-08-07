@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar Menu</title>
+    <link rel="stylesheet" href="ex.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+   <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="close" class="close">&times;</span>
+      <h2>Details for Tomorrow's Delivery (18th Jan 2024)</h2>
+      <ul>
+        <li>Schedule: 10:00 (Morning), 12:00 (Noon), 14:00 (Afternoon), 18:00 (Evening)</li>
+        <li>Delivery time slots: 10:00-12:00, 12:00-14:00, 14:00-16:00, 18:00-20:00</li>
+        <li>Record 4 measurements of your funds in your wallet.</li>
+        <li>Service charge rates: ฿1024</li>
+        <li>Approximate costs:
+          <ul>
+            <li>Clothes delivery: ฿</li>
+            <li>Laundry service: ฿</li>
+          </ul>
+        </li>
+        <li>Our services include delivery and laundry with the following approximate costs:</li>
+      </ul>
+    </div>
+  
+  </div>
+  
+  <div class="columnin" onclick="toggleBackgroundColor(this)">Column 1</div>
+  <!-- Button to open the modal -->
+  <button id="openModalBtn" type="button">Open Modal</button>
+    <script src="ex.js"></script>
+ 
+</body>
+</html>
